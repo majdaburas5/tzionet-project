@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "60ede6c3773305320dba7692"
+  },
+  "ProductName": "Lenovo ThinkPad E14 Gen 2 20TA005GIV",
+  "Category": "Lenovo",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/6808319/large/89c2881d1fb26ede3af097863d45633a.jpg",
+  "Price": "2000"
+},{
+  "_id": {
+    "$oid": "60ede7f0773305320dba7694"
+  },
+  "ProductName": "Asus X515EA-BQ1206\n",
+  "Category": "Asus",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/9071448/extra_large/1208fa89809a6c16070191b1ead1d0c4.jpg",
+  "Price": "2500"
+},{
+  "_id": {
+    "$oid": "60ede804773305320dba7695"
+  },
+  "ProductName": "Lenovo Yoga 7 14ITL5 82BH00J6IV",
+  "Category": "Lenovo",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/8588351/large/3a02ff8c5ca7b82be73dddf7cd0433ec.jpg",
+  "Price": "3500"
+},{
+  "_id": {
+    "$oid": "60edeed1773305320dba769e"
+  },
+  "ProductName": "Lenovo ThinkBook 14 G2-ITL 20VD000AIV",
+  "Category": "Lenovo",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/7901619/large/bf8d64d0f7f2c18f926d1bcbba0daf22.jpg",
+  "Price": "8050"
+},{
+  "_id": {
+    "$oid": "60edf123773305320dba769f"
+  },
+  "ProductName": "Lenovo ThinkPad E15 Gen 2 20TD0050IV\n",
+  "Category": "Lenovo",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/7448751/large/5e7f69930d2ee95a2a22feb74f125ac2.jpg",
+  "Price": "1900"
+},{
+  "_id": {
+    "$oid": "60edf152773305320dba76a0"
+  },
+  "ProductName": "Asus VivoBook 14 K413EA-EK1761\n",
+  "Category": "Asus",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/9724408/large/1d2856c5945c1864015e3c0e8f03e260.jpg",
+  "Price": "2000"
+},{
+  "_id": {
+    "$oid": "60edf1bc773305320dba76a1"
+  },
+  "ProductName": "Asus ZenBook 13 UX325EA-KG654W\n",
+  "Category": "Asus",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/8684861/extra_large/7cf53a7bf145ecd86bb7722736f5cb70.jpeg",
+  "Price": "8700"
+},{
+  "_id": {
+    "$oid": "60edf1ec773305320dba76a2"
+  },
+  "ProductName": "Asus VivoBook 16X X1603ZA-L2068W\n",
+  "Category": "Asus",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/9347580/large/c0b746fdcaa612cd7c4c9bffee9fd39c.jpeg",
+  "Price": "6000"
+},{
+  "_id": {
+    "$oid": "60edf296773305320dba76a3"
+  },
+  "ProductName": "MacBook Pro 16 M1 Max",
+  "Category": "Apple",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/8407360/large/dda04cc59753ecdd09523d204a4e5e22.jpg",
+  "Price": "13000"
+},{
+  "_id": {
+    "$oid": "60edf308773305320dba76a4"
+  },
+  "ProductName": "MacBook Pro 16  Apple M1 Pro chip",
+  "Category": "Apple",
+  "Picture": "https://d3m9l0v76dty0.cloudfront.net/system/photos/8413676/large/d6fed2092a603fb422585a1a290f0735.jpg",
+  "Price": "1490"
+}]

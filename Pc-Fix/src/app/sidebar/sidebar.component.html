@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="column">
+    <div class="sidebar-header"></div>
+
+    <ul class="list-unstyled components">
+      <li>
+        <button
+          (click)="showApple()"
+          class="list-group-item list-group-item-action"
+        >
+          {{ catagories[0].name }}
+        </button>
+      </li>
+      <li>
+        <button
+          (click)="showLen()"
+          class="list-group-item list-group-item-action"
+        >
+          {{ catagories[1].name }}
+        </button>
+      </li>
+      <button (click)="showA()" class="list-group-item list-group-item-action">
+        {{ catagories[2].name }}
+      </button>
+    </ul>
+  </div>
+</div>
+<div class="column"></div>

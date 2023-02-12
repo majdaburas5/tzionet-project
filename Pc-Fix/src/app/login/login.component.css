@@ -1,0 +1,17 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url(https://static.wixstatic.com/media/6c3b8b_d22625c54d434dd693bef758bf8c5750~mv2.png/v1/fit/w_2500,h_1330,al_c/6c3b8b_d22625c54d434dd693bef758bf8c5750~mv2.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ng-valid [required] {
+  border-left: 5px solid limegreen;
+}
+.ng-invalid:not(form) {
+  border-left: 5px solid red;
+}

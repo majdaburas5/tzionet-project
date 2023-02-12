@@ -1,0 +1,65 @@
+<app-navbar></app-navbar>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Product Name</th>
+      <th scope="col"></th>
+      <th scope="col">Price</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+</table>
+
+<div *ngFor="let bro of addToCart">
+  <table class="table table-striped">
+    <tbody>
+      <tr>
+        <td scope="col">{{ bro.productName }}</td>
+        <td scope="col">
+          <img
+            class="img-thumbnail"
+            src="{{ bro.picture }}"
+            alt="Thumbnail image"
+            width="100px"
+            height="100px"
+          />
+        </td>
+        <td scope="col">{{ bro.price }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<table class="table table-striped">
+  <tbody>
+    <tr>
+      <td scope="col">
+        <b>Total Items : {{ totalItems }}</b>
+      </td>
+      <td scope="col"></td>
+      <td scope="col"></td>
+      <td scope="col"></td>
+      <td scope="col"></td>
+
+      <td scope="col"></td>
+      <td scope="col"></td>
+      <td scope="col">
+        <b>Total Price : {{ totalPrice }}</b>
+      </td>
+      <td scope="col"></td>
+      <td scope="col">
+        <button
+          class="nav-link"
+          (click)="buttonPurchaseClicked()"
+          type="button"
+          class="btn btn-danger"
+        >
+          Purchase Order
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<app-footer></app-footer>

@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <tr *ngFor="let pro of products">
+      <ng-container *ngIf="selectedCategory == pro.Category">
+        <div class="card">
+          <div class="card-header">{{ pro.Category }}</div>
+          <div class="card-body">
+            <h5 class="card-title">{{ pro.ProductName }}</h5>
+            <p class="card-text">{{ pro.Price }}$</p>
+            <img
+              class="img-thumbnail"
+              src="{{ pro.Picture }}"
+              alt="Thumbnail image"
+              width="300px"
+              height="300px"
+            />
+            <button
+              (click)="addToCart(pro.ProductName, pro.Picture, pro.Price)"
+              type="button"
+              class="btn btn-outline-secondary"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+      </ng-container>
+    </tr>
+  </div>
+</div>
